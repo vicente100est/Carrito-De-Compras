@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ADMIN LOGIN</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <img src="img/logo.png">
+    <br>
+    <a href='../index.php'> <img src="img/iconos/salida.png" width="100" title="REGRESAR A INICIO"></a><br>
+    <center>
+        <div class="login">
+            <h1>BIENVENIDO AL MODO ADMINISTRADOR</h1>
+            <form action="login.php" method="POST">
+                <label>USUARIO</label>
+                <br>
+                <input type="text" name="usuario" value="" placeholder="Usuario, Correo o Teléfono..." required>
+                <br><br>
+                <label>CONTRASEÑA</label>
+                <br>
+                <input type="password" name="contrasena" value="" placeholder="Contraseña..." required>
+                <br><br>
+                <input type="submit" value="INGRESAR">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
